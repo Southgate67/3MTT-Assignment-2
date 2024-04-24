@@ -313,53 +313,52 @@ button a {
   font-weight: bold;
 }
 
-
-/* Media queries */
+/* Media queries for 1024 screens*/
   /* index page */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     /* Styles for screens up to 768px wide (e.g., tablets) */
     .cover {
       overflow: hidden;
     }
   
     .first-section {
-      width: 50%; /* Adjust width for tablets */
+       /* Adjust width for tablets */
       display: grid;
     }
   
     .first-section {
       padding-top: 2.5rem;
-      margin-left: 0rem;
-      justify-content: flex-start;
+      margin-left: 5rem;
     }
   
     .skill-section {
       display: block;
       margin-left: 1.5rem;
+    
     }
   
     .web-skill h3 {
-      margin-left: 10rem;
+      margin-left: 17rem;
     }
   
     .image {
-      margin-left: 13rem;
+      margin-left: 19rem;
     }
   
     .writer-skill h3 {
-      margin-left: 8rem;
+      margin-left: 15rem;
     }
   
     .image1 {
-      margin-left: 12rem;
+      margin-left: 19rem;
     }
   
     .business-skill h3 {
-      margin-left: 7rem;
+      margin-left: 13rem;
     }
   
     .image2 {
-      margin-left: 12.5rem;
+      margin-left: 18.5rem;
     }
   
     .web-skill {
@@ -375,8 +374,7 @@ button a {
     }
   
     .menu {
-      display: initial;
-      width: 50%;
+      display: flex;
     }
   
     .ben img {
@@ -384,22 +382,212 @@ button a {
       align-self: flex-start;
     }
   
-    .side-items ul li {
-      margin-left: 1.7rem;
-      padding-right: 0rem;
+    .side-items ul {
+      margin-right: 0.5rem;
+      align-items: self-end;
+      padding: 0.5rem;
     }
   
     .side-items ul li a {
-      padding: 0rem;
+      
     }
   
     .my-name {
-      margin-left: 1rem;
+      margin-left: 3.2rem;
       margin-right: 0rem;
       padding: 0.5rem;
     }
   }
   
-  /* Media queries */
-  /* About page */
   
+/* Media queries for 768 screens */
+/* index page */
+@media only screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (e.g., tablets) */
+  .cover {
+    overflow: hidden;
+  }
+
+  .first-section {
+     /* Adjust width for tablets */
+    display: grid;
+  }
+
+  .first-section {
+    padding-top: 2.5rem;
+    margin-left: 5rem;
+  }
+
+  .skill-section {
+    display: block;
+    margin-left: 1.5rem;
+  
+  }
+
+  .web-skill h3 {
+    margin-left: 17rem;
+  }
+
+  .image {
+    margin-left: 19rem;
+  }
+
+  .writer-skill h3 {
+    margin-left: 15rem;
+  }
+
+  .image1 {
+    margin-left: 19rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 13rem;
+  }
+
+  .image2 {
+    margin-left: 18.5rem;
+  }
+
+  .web-skill {
+    margin-left: 2.5rem;
+  }
+
+  .business-skill {
+    padding-right: 2.5rem;
+  }
+
+  hr {
+    margin-right: 1.1rem;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .ben img {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .side-items ul {
+    margin-right: 0.5rem;
+    align-items: self-end;
+    padding: 0.5rem;
+  }
+
+  .side-items ul li a {
+    
+  }
+
+  .my-name {
+    margin-left: 3.2rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
+  }
+}
+
+
+/* Media queries for 680-screen */
+/* index page */
+@media only screen and (max-width: 680px) {
+  /* Styles for screens up to 768px wide (e.g., tablets) */
+  .cover {
+    overflow: hidden;
+  }
+
+  .first-section {
+   /* Adjust width for tablets */
+
+  }
+
+  .first-section {
+    padding-top: 2.5rem;
+    margin-left: 0rem;
+    justify-content: flex-start;
+  }
+
+  .first-section p{
+      font-size: 1.8rem;
+    }
+
+    .first-section small{
+      font-size: smaller;
+    }
+
+  .skill-section {
+    display: block;
+    margin-left: 1.5rem;
+  }
+
+  .web-skill h3 {
+    margin-left: 8rem;
+  }
+
+  .image {
+    margin-left: 11rem;
+  }
+
+  .writer-skill h3 {
+    margin-left: 6.5rem;
+  }
+
+  .image1 {
+    margin-left: 10.5rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 5.5rem;
+  }
+
+  .image2 {
+    margin-left: 11rem;
+  }
+
+  .web-skill {
+    margin-left: 2.5rem;
+  }
+
+  .business-skill {
+    padding-right: 2.5rem;
+  }
+
+  hr {
+    margin-right: 1.1rem;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu p {
+    font-size: 12.5px;
+  }
+
+  .ben img {
+    margin-left: 0rem;
+    width: 32rem;
+    height: 16rem;
+  }
+
+  .side-items ul {
+    margin-right: 0.5rem;
+    align-items: self-end;
+    padding: 0.5rem;
+    
+  }
+
+  .side-items ul li a {
+    padding: 0rem;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .my-name {
+    margin-left: 1rem;
+    margin-right: 0rem;
+    padding-right: 0.8rem;
+  }
+}
+
+/* Media queries */
+/* About page */
