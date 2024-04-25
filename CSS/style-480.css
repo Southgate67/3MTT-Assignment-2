@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 480px) {
   /* Styles for screens up to 480px wide (e.g., tablets) */
 
   * {
@@ -18,17 +18,19 @@
   }
   
   .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 0.5rem;
+    display: grid;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
   }
 
   .logo {
-    margin-top: 1rem;
+    /* margin-top: 2rem; */
     font-weight: 650;
     color: whitesmoke;
-    padding-left: 1rem;
+    font-size: 13px;
   }
 
   .logo a{
@@ -38,7 +40,7 @@
   .side-items ul{
     display: flex;
     padding-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 
   .side-items li{
@@ -48,7 +50,7 @@
   .side-items a{
     text-decoration: none;
     padding-left: 0.5rem;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     color: white;
   }
@@ -56,7 +58,7 @@
   .first-section {
     padding-top: 2rem;
     display: grid;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-right: 1rem;
     padding-bottom: 0rem;
   }
@@ -65,16 +67,19 @@
     font-size: 1rem;
     padding-bottom: 1rem;
     color: white;
+    padding-left: 2rem;
   }
 
   .first-section small{
-    font-size: smaller;
+    font-size: x-small;
     color: wheat;
+    padding-left: 1rem;
   }
 
   .first-section h4 {
     padding-bottom: 1rem;
     color: burlywood;
+    padding-left: 2rem;
   }
   
   .my-name button {
@@ -96,11 +101,12 @@
   }
 
   .ben img {
-    width: 30rem;
+    width: 35rem;
     margin-left: 0;
-    height: 15rem;
+    height: 11rem;
     opacity: 5;
     padding-bottom: 0;
+    padding-right: 15rem;
     }
 
   .skill-section {
@@ -126,7 +132,7 @@
   }
 
   .image, .image1, .image2{
-    margin-left: 13.5rem;
+    margin-left: 8rem;
   }
 
   .image{
@@ -214,7 +220,7 @@
   background-color: blue;
   border-radius: 8px;
   border-color: red;
-  margin-left: 9rem;
+  margin-left: 4.2rem;
 }
 
 .plastics-link-b {
@@ -267,6 +273,7 @@ button a {
   border-radius: 8px;
   border-color: red;
   padding-bottom: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .content-link {
@@ -275,7 +282,7 @@ button a {
 }
 
 .content-link .plastics-link-a{
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 
 /* third skill */
@@ -310,7 +317,7 @@ button a {
 }
 
 .farm-link .plastics-link-a{
-  width: 105px;
+  width: 90px;
 }
 
 }
