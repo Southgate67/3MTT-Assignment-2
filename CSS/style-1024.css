@@ -8,6 +8,7 @@
 .upper {
   background-color: rgba(2, 2, 165, 0.781);
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -31,6 +32,11 @@
 .menu .logo p {
   color: antiquewhite;
 }
+
+.logo a{
+  text-decoration: none;
+}
+
 
 .side-items ul {
   margin-right: 4rem;
@@ -313,10 +319,30 @@ button a {
   font-weight: bold;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: wheat;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
 /* Media queries for 1024 screens*/
   /* index page */
   @media only screen and (max-width: 1024px) {
-    /* Styles for screens up to 768px wide (e.g., tablets) */
+    /* Styles for screens up to 1024x wide (e.g., tablets) */
     .cover {
       overflow: hidden;
     }
@@ -398,6 +424,8 @@ button a {
       padding: 0.5rem;
     }
   }
+
+  
   
   
 /* Media queries for 768 screens */
@@ -490,15 +518,11 @@ button a {
 /* Media queries for 680-screen */
 /* index page */
 @media only screen and (max-width: 680px) {
-  /* Styles for screens up to 768px wide (e.g., tablets) */
+  /* Styles for screens up to 680px wide (e.g., tablets) */
   .cover {
     overflow: hidden;
   }
 
-  .first-section {
-   /* Adjust width for tablets */
-
-  }
 
   .first-section {
     padding-top: 2.5rem;
@@ -524,7 +548,7 @@ button a {
   }
 
   .image {
-    margin-left: 11rem;
+    margin-left: 10.5rem;
   }
 
   .writer-skill h3 {
@@ -589,5 +613,4 @@ button a {
   }
 }
 
-/* Media queries */
-/* About page */
+

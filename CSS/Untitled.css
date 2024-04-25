@@ -1,0 +1,311 @@
+
+  .upper {
+    background-color: rgba(2, 2, 165, 0.781);
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .side-items ul {
+    display: flex;
+    padding-right: 4rem;
+    margin-top: 1rem;
+  }
+  
+  .logo {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+  }
+  
+  .menu .logo p {
+    color: antiquewhite;
+  }
+  
+  .side-items ul {
+    margin-right: 4rem;
+  }
+  
+  .side-items ul li {
+    padding-left: 0.5rem;
+    list-style: none;
+  }
+  
+  .side-items ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+    /* font-weight: bold; */
+  }
+  
+  .menu p {
+    color: white;
+  }
+  
+  .first-section {
+    padding-top: 6rem;
+    display: flex;
+  }
+  
+  .ben img {
+    width: 40rem;
+    margin-left: 1rem;
+    height: 20rem;
+    opacity: 5;
+  }
+  
+  .my-name {
+    margin-left: 10rem;
+  }
+  
+  .my-name h4 {
+    padding-bottom: 1rem;
+    color: burlywood;
+  }
+  
+  .my-name p {
+    padding-bottom: 1rem;
+    font-size: 32px;
+  }
+  
+  small {
+    font-size: 15px;
+  }
+  
+  .my-name small,p,button {
+    color: white;
+  }
+  
+  .my-name button {
+    margin-top: 1rem;
+    background-color: blue;
+    width: 120px;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+    border-color: red;
+  }
+  
+  .skill {
+    background-color: antiquewhite;
+  }
+  
+  .skill-section {
+    margin-left: 5rem;
+    display: flex;
+  }
+  
+  .skill-section p {
+    color: lightslategrey;
+    font-weight: 500;
+  }
+  
+  .skill-section img {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  
+  .skill-section h3 {
+    padding-bottom: 1rem;
+  }
+  
+  .writer {
+    margin-left: 3rem;
+  }
+  
+  .image {
+    margin-left: 3rem;
+  }
+  
+  .image1 {
+    margin-left: 7rem;
+  }
+  
+  .image2 {
+    margin-left: 8rem;
+  }
+  
+  .business {
+    margin-left: 3rem;
+  }
+  .web-skill {
+    padding-right: 1rem;
+    margin-right: 2.5rem; 
+  }
+  
+  .writer-skill {
+    padding-right: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+  }
+  
+  .business-skill {
+    padding-right: 5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+  }
+  
+  /* about page designed below */
+  
+  /* first skill */
+  .nav {
+    background-color: rgba(2, 2, 165, 0.781);
+    padding-bottom: 0.5rem;
+  }
+  
+  .section-1 {
+    padding-top: 2rem;
+    display: flex;
+    background-color: antiquewhite;
+  }
+  
+  .section-1 h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 30%;
+  }
+  
+  .section-1 p {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 15rem;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.7;
+    color: lightslategrey;
+  }
+  
+  .plastics-link {
+    margin-top: 2.5rem;
+    /* padding-top: 0.5rem; */
+    /* padding-left: 0.5rem; */
+    padding-right: 8rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+  .plastics-link-a {
+    width: 105px;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13.5px;
+  }
+  
+  .plastics-link-b {
+    width: 105px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+  }
+  
+  /* second skill */
+  .section-2 {
+    padding-top: 2rem;
+    display: flex;
+    background-color: rgba(2, 2, 165, 0.781);
+  }
+  
+  .section-2 h4 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .section-2 p {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .content-link {
+    margin-top: 2.5rem;
+    /* padding-top: 0.5rem; */
+    margin-left: 15rem;
+    padding-right: 7.5rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+  .plastics-link-c {
+    width: 105px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+  }
+  
+  .plastics-link-c a {
+    padding-left: 10%;
+  }
+  
+  /* third skill */
+  .section-3 {
+    padding-top: 2rem;
+    display: flex;
+    background-color: antiquewhite;
+  }
+  
+  .section-3 h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 35%;
+  }
+  
+  .section-3 p {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 15rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.7;
+    color: lightslategrey;
+  }
+  
+  .section-3 span {
+    font-weight: bolder;
+  }
+  
+  .farm-link {
+    margin-top: 2.5rem;
+    /* padding-top: 0.5rem; */
+    /* padding-left: 0.5rem; */
+    padding-right: 8.5rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+
+  

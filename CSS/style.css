@@ -8,6 +8,7 @@
 .upper {
   background-color: rgba(2, 2, 165, 0.781);
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -31,6 +32,11 @@
 .menu .logo p {
   color: antiquewhite;
 }
+
+.logo a{
+  text-decoration: none;
+}
+
 
 .side-items ul {
   margin-right: 4rem;
@@ -313,53 +319,73 @@ button a {
   font-weight: bold;
 }
 
+/* unvisited link */
+a:link {
+  color: white;
+}
 
-/* Media queries */
+/* visited link */
+a:visited {
+  color: wheat;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+
+/* Media queries for 1024 screens*/
   /* index page */
-  @media only screen and (max-width: 600px) {
-    /* Styles for screens up to 768px wide (e.g., tablets) */
+  @media only screen and (max-width: 1024px) {
+    /* Styles for screens up to 1024x wide (e.g., tablets) */
     .cover {
       overflow: hidden;
     }
   
     .first-section {
-      width: 50%; /* Adjust width for tablets */
+       /* Adjust width for tablets */
       display: grid;
     }
   
     .first-section {
       padding-top: 2.5rem;
-      margin-left: 0rem;
-      justify-content: flex-start;
+      margin-left: 5rem;
     }
   
     .skill-section {
       display: block;
       margin-left: 1.5rem;
+    
     }
   
     .web-skill h3 {
-      margin-left: 10rem;
+      margin-left: 17rem;
     }
   
     .image {
-      margin-left: 13rem;
+      margin-left: 19rem;
     }
   
     .writer-skill h3 {
-      margin-left: 8rem;
+      margin-left: 15rem;
     }
   
     .image1 {
-      margin-left: 12rem;
+      margin-left: 19rem;
     }
   
     .business-skill h3 {
-      margin-left: 7rem;
+      margin-left: 13rem;
     }
   
     .image2 {
-      margin-left: 12.5rem;
+      margin-left: 18.5rem;
     }
   
     .web-skill {
@@ -375,8 +401,7 @@ button a {
     }
   
     .menu {
-      display: initial;
-      width: 50%;
+      display: flex;
     }
   
     .ben img {
@@ -384,22 +409,524 @@ button a {
       align-self: flex-start;
     }
   
-    .side-items ul li {
-      margin-left: 1.7rem;
-      padding-right: 0rem;
+    .side-items ul {
+      margin-right: 0.5rem;
+      align-items: self-end;
+      padding: 0.5rem;
     }
   
     .side-items ul li a {
-      padding: 0rem;
+      
     }
   
     .my-name {
-      margin-left: 1rem;
+      margin-left: 3.2rem;
       margin-right: 0rem;
       padding: 0.5rem;
     }
   }
   
-  /* Media queries */
-  /* About page */
   
+/* Media queries for 768 screens */
+/* index page */
+@media only screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (e.g., tablets) */
+  .cover {
+    overflow: hidden;
+  }
+
+  .first-section {
+     /* Adjust width for tablets */
+    display: grid;
+  }
+
+  .first-section {
+    padding-top: 2.5rem;
+    margin-left: 5rem;
+  }
+
+  .skill-section {
+    display: block;
+    margin-left: 1.5rem;
+  
+  }
+
+  .web-skill h3 {
+    margin-left: 17rem;
+  }
+
+  .image {
+    margin-left: 19rem;
+  }
+
+  .writer-skill h3 {
+    margin-left: 15rem;
+  }
+
+  .image1 {
+    margin-left: 19rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 13rem;
+  }
+
+  .image2 {
+    margin-left: 18.5rem;
+  }
+
+  .web-skill {
+    margin-left: 2.5rem;
+  }
+
+  .business-skill {
+    padding-right: 2.5rem;
+  }
+
+  hr {
+    margin-right: 1.1rem;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .ben img {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .side-items ul {
+    margin-right: 0.5rem;
+    align-items: self-end;
+    padding: 0.5rem;
+  }
+
+  .side-items ul li a {
+    
+  }
+
+  .my-name {
+    margin-left: 3.2rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
+  }
+}
+
+
+/* Media queries for 680-screen */
+/* index page */
+@media only screen and (max-width: 680px) {
+  /* Styles for screens up to 680px wide (e.g., tablets) */
+  .cover {
+    overflow: hidden;
+  }
+
+
+  .first-section {
+    padding-top: 2.5rem;
+    margin-left: 0rem;
+    justify-content: flex-start;
+  }
+
+  .first-section p{
+      font-size: 1.8rem;
+    }
+
+    .first-section small{
+      font-size: smaller;
+    }
+
+  .skill-section {
+    display: block;
+    margin-left: 1.5rem;
+  }
+
+  .web-skill h3 {
+    margin-left: 8rem;
+  }
+
+  .image {
+    margin-left: 10.5rem;
+  }
+
+  .writer-skill h3 {
+    margin-left: 6.5rem;
+  }
+
+  .image1 {
+    margin-left: 10.5rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 5.5rem;
+  }
+
+  .image2 {
+    margin-left: 11rem;
+  }
+
+  .web-skill {
+    margin-left: 2.5rem;
+  }
+
+  .business-skill {
+    padding-right: 2.5rem;
+  }
+
+  hr {
+    margin-right: 1.1rem;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu p {
+    font-size: 12.5px;
+  }
+
+  .ben img {
+    margin-left: 0rem;
+    width: 32rem;
+    height: 16rem;
+  }
+
+  .side-items ul {
+    margin-right: 0.5rem;
+    align-items: self-end;
+    padding: 0.5rem;
+    
+  }
+
+  .side-items ul li a {
+    padding: 0rem;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .my-name {
+    margin-left: 1rem;
+    margin-right: 0rem;
+    padding-right: 0.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide (e.g., tablets) */
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cover{
+    overflow: hidden;
+  }
+
+  .upper {
+    background-color: rgba(2, 2, 165, 0.781);
+    
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .logo {
+    margin-top: 1rem;
+    font-weight: 650;
+    color: whitesmoke;
+    padding-left: 1rem;
+  }
+
+  .logo a{
+    text-decoration: none;
+  }
+  
+  .side-items ul{
+    display: flex;
+    padding-right: 1rem;
+    margin-top: 1rem;
+  }
+
+  .side-items li{
+    list-style: none;
+  }
+  
+  .side-items a{
+    text-decoration: none;
+    padding-left: 0.5rem;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .first-section {
+    padding-top: 2rem;
+    display: grid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+  }
+  
+  .first-section p{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+  }
+
+  .first-section small{
+    font-size: smaller;
+    color: wheat;
+  }
+
+  .first-section h4 {
+    padding-bottom: 1rem;
+    color: burlywood;
+  }
+  
+  .my-name button {
+    margin-top: 1rem;
+    background-color: blue;
+    width: 100px;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+    border-color: red;
+  }
+
+  .my-name a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  .ben img {
+    width: 30rem;
+    margin-left: 0;
+    height: 15rem;
+    opacity: 5;
+    padding-bottom: 0;
+    }
+
+  .skill-section {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .skill-section p {
+    color: lightslategrey;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  .skill-section h3 {
+    padding-bottom: 0.5rem;
+    font-size: medium;
+  }
+
+  .web, .writer, .business{
+    text-align: center;
+  }
+
+  .image, .image1, .image2{
+    margin-left: 13.5rem;
+  }
+
+  .image{
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .image1{
+    padding-top: 2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .image2{
+    padding-top: 2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  .writer {
+    
+  }
+
+  /* unvisited link */
+  a:link {
+  color: white;
+  }
+
+  /* visited link */
+  a:visited {
+  color: wheat;
+  }
+
+  /* mouse over link */
+  a:hover {
+  color: red;
+  }
+
+  /* selected link */
+  a:active {
+  color: yellow;
+  }
+
+  /* about page designed below */
+  
+.nav {
+  background-color: rgba(2, 2, 165, 0.781);
+  padding-bottom: 0.5rem;
+}
+
+/* first skill */
+.section-1 {
+  padding-top: 1.5rem;
+  display: flex;
+  background-color: antiquewhite;
+  display: grid;
+  padding-bottom: 0.8rem;
+}
+
+.section-1 h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  /* margin-left: 30%; */
+}
+
+.section-1 p {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.8rem;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.7;
+  color: lightslategrey;
+}
+
+.plastics-link {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.plastics-link-a {
+  width: 84px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: blue;
+  border-radius: 8px;
+  border-color: red;
+  margin-left: 9rem;
+}
+
+.plastics-link-b {
+  width: 84px;
+  padding: 0.5rem;
+  background-color: blue;
+  border-radius: 8px;
+  border-color: red;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 13.5px;
+}
+
+/* second skill */
+
+.section-2 {
+  padding-top: 1.5rem;
+  display: flex;
+  background-color: blue;
+  display: grid;
+  padding-bottom: 0.8rem;
+}
+
+.section-2 h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  /* margin-left: 30%; */
+}
+
+.section-2 p {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.8rem;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.7;
+  color: white;
+}
+
+.plastics-link-c {
+  width: 84px;
+  padding: 0.5rem;
+  background-color: blue;
+  border-radius: 8px;
+  border-color: red;
+  padding-bottom: 0.5rem;
+}
+
+.content-link {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.content-link .plastics-link-a{
+  margin-left: 5rem;
+}
+
+/* third skill */
+.section-3 {
+  padding-top: 1.5rem;
+  display: flex;
+  background-color: antiquewhite;
+  display: grid;
+  padding-bottom: 0.8rem;
+}
+
+.section-3 h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  /* margin-left: 30%; */
+}
+
+.section-3 p {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.8rem;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.7;
+  color: lightslategrey;
+}
+
+.section-3 span {
+  font-weight: bolder;
+}
+
+.farm-link .plastics-link-a{
+  width: 105px;
+}
+
+}
+
