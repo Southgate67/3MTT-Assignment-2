@@ -1,29 +1,533 @@
-@media only screen and (max-width: 480px) {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upper {
+  background-color: rgba(2, 2, 165, 0.781);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.side-items ul {
+  display: flex;
+  padding-right: 4rem;
+  margin-top: 1rem;
+}
+
+.logo {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: bolder;
+}
+
+.menu .logo p {
+  color: antiquewhite;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.side-items ul {
+  margin-right: 4rem;
+}
+
+.side-items ul li {
+  padding-left: 0.5rem;
+  list-style: none;
+}
+
+.side-items ul li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 1rem;
+  /* font-weight: bold; */
+}
+
+.menu p {
+  color: white;
+}
+
+.first-section {
+  padding-top: 6rem;
+  display: flex;
+}
+
+.ben img {
+  width: 40rem;
+  margin-left: 1rem;
+  height: 20rem;
+  opacity: 5;
+}
+
+.my-name {
+  margin-left: 10rem;
+}
+
+.my-name h4 {
+  padding-bottom: 1rem;
+  color: burlywood;
+}
+
+.my-name p {
+  padding-bottom: 1rem;
+  font-size: 32px;
+}
+
+small {
+  font-size: 15px;
+}
+
+.my-name small,
+p,
+button {
+  color: white;
+}
+
+.my-name button {
+  margin-top: 1rem;
+  background-color: blue;
+  width: 120px;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 8px;
+  border-color: red;
+}
+
+.skill {
+  background-color: antiquewhite;
+}
+
+.skill-section {
+  margin-left: 5rem;
+  display: flex;
+}
+
+.skill-section p {
+  color: lightslategrey;
+  font-weight: 500;
+}
+
+.skill-section img {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.skill-section h3 {
+  padding-bottom: 1rem;
+}
+
+.writer {
+  margin-left: 3rem;
+}
+
+.image {
+  margin-left: 3rem;
+}
+
+.image1 {
+  margin-left: 7rem;
+}
+
+.image2 {
+  margin-left: 8rem;
+}
+
+.business {
+  margin-left: 3rem;
+}
+.web-skill {
+  padding-right: 1rem;
+  margin-right: 2.5rem;
+}
+
+.writer-skill {
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.business-skill {
+  padding-right: 5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+/* about page designed below */
+
+/* first skill */
+.nav {
+  background-color: rgba(2, 2, 165, 0.781);
+  padding-bottom: 0.5rem;
+}
+
+.section-1 {
+  padding-top: 2rem;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.section-1 h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 30%;
+}
+
+.section-1 p {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 15rem;
+  padding-bottom: 1.5rem;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.7;
+  color: lightslategrey;
+}
+
+.plastics-link {
+  margin-top: 2.5rem;
+  /* padding-top: 0.5rem; */
+  /* padding-left: 0.5rem; */
+  padding-right: 8rem;
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.plastics-link-a {
+  width: 105px;
+  padding: 1rem;
+  background-color: blue;
+  border-radius: 8px;
+  border-color: red;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 13.5px;
+}
+
+.plastics-link-b {
+  width: 105px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background-color: blue;
+  border-radius: 8px;
+  border-color: red;
+}
+
+/* second skill */
+.section-2 {
+  padding-top: 2rem;
+  display: flex;
+  background-color: rgba(2, 2, 165, 0.781);
+}
+
+.section-2 h4 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.section-2 p {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1.5rem;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
+
+.content-link {
+  margin-top: 2.5rem;
+  /* padding-top: 0.5rem; */
+  margin-left: 15rem;
+  padding-right: 7.5rem;
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.plastics-link-c {
+  width: 105px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  background-color: blue;
+  border-radius: 8px;
+  border-color: red;
+}
+
+.plastics-link-c a {
+  padding-left: 10%;
+}
+
+/* third skill */
+.section-3 {
+  padding-top: 2rem;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.section-3 h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 35%;
+}
+
+.section-3 p {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 15rem;
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.7;
+  color: lightslategrey;
+}
+
+.section-3 span {
+  font-weight: bolder;
+}
+
+.farm-link {
+  margin-top: 2.5rem;
+  /* padding-top: 0.5rem; */
+  /* padding-left: 0.5rem; */
+  padding-right: 8.5rem;
+  padding-bottom: 0.5rem;
+  text-align: justify;
+  font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: wheat;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+/* Media queries for 1024 screens*/
+/* index page */
+@media only screen and (max-width: 1024px) {
+  /* Styles for screens up to 1024x wide (e.g., tablets) */
+  .cover {
+    overflow: hidden;
+  }
+
+  .first-section {
+    /* Adjust width for tablets */
+    display: grid;
+  }
+
+  .first-section {
+    padding-top: 2.5rem;
+    margin-left: 5rem;
+  }
+
+  .skill-section {
+    display: block;
+    margin-left: 1.5rem;
+  }
+
+  .web-skill h3 {
+    margin-left: 17rem;
+  }
+
+  .image {
+    margin-left: 19rem;
+  }
+
+  .writer-skill h3 {
+    margin-left: 15rem;
+  }
+
+  .image1 {
+    margin-left: 19rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 13rem;
+  }
+
+  .image2 {
+    margin-left: 18.5rem;
+  }
+
+  .web-skill {
+    margin-left: 2.5rem;
+  }
+
+  .business-skill {
+    padding-right: 2.5rem;
+  }
+
+  hr {
+    margin-right: 1.1rem;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .ben img {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .side-items ul {
+    margin-right: 0.5rem;
+    align-items: self-end;
+    padding: 0.5rem;
+  }
+
+  .side-items ul li a {
+  }
+
+  .my-name {
+    margin-left: 3.2rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Media queries for 768 screens */
+/* index page */
+@media only screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (e.g., tablets) */
+  .cover {
+    overflow: hidden;
+  }
+
+  .first-section {
+    /* Adjust width for tablets */
+    display: grid;
+  }
+
+  .first-section {
+    padding-top: 2.5rem;
+    margin-left: 5rem;
+  }
+
+  .skill-section {
+    display: block;
+    margin-left: 1.5rem;
+  }
+
+  .web-skill h3 {
+    margin-left: 17rem;
+  }
+
+  .image {
+    margin-left: 19rem;
+  }
+
+  .writer-skill h3 {
+    margin-left: 15rem;
+  }
+
+  .image1 {
+    margin-left: 19rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 13rem;
+  }
+
+  .image2 {
+    margin-left: 18.5rem;
+  }
+
+  .web-skill {
+    margin-left: 2.5rem;
+  }
+
+  .business-skill {
+    padding-right: 2.5rem;
+  }
+
+  hr {
+    margin-right: 1.1rem;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .ben img {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .side-items ul {
+    margin-right: 0.5rem;
+    align-items: self-end;
+    padding: 0.5rem;
+  }
+
+  .side-items ul li a {
+  }
+
+  .my-name {
+    margin-left: 3.2rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Media queries for 680-screen */
+/* index page */
+@media only screen and (min-width: 320px) and (max-width: 680px) {
   /* Styles for screens up to 480px wide (e.g., tablets) */
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .cover{
+  .cover {
     overflow: hidden;
   }
 
   .upper {
     background-color: rgba(2, 2, 165, 0.781);
-    
   }
-  
+
   .menu {
     display: grid;
     /* justify-content: space-between; */
     /* align-items: center; */
     padding-bottom: 1.5rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 0rem;
   }
 
   .logo {
@@ -33,47 +537,48 @@
     font-size: 13px;
   }
 
-  .logo a{
+  .logo a {
     text-decoration: none;
   }
-  
-  .side-items ul{
+
+  .side-items ul {
     display: flex;
-    padding-right: 1rem;
+    padding-right: 0rem;
     margin-top: 1.5rem;
   }
 
-  .side-items li{
+  .side-items li {
     list-style: none;
   }
-  
-  .side-items a{
+
+  .side-items a {
     text-decoration: none;
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
     font-size: 12px;
     font-weight: 500;
     color: white;
   }
 
   .first-section {
-    padding-top: 2rem;
-    display: grid;
+    padding-top: 0.5rem;
+    display: inline;
+    /* padding-left: 0.5rem; */
     padding-left: 0.5rem;
-    padding-right: 1rem;
     padding-bottom: 0rem;
+    margin-bottom: 0;
   }
-  
-  .first-section p{
+
+  .first-section p {
     font-size: 1rem;
     padding-bottom: 1rem;
     color: white;
     padding-left: 2rem;
   }
 
-  .first-section small{
+  .first-section small {
     font-size: x-small;
     color: wheat;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
   }
 
   .first-section h4 {
@@ -81,7 +586,7 @@
     color: burlywood;
     padding-left: 2rem;
   }
-  
+
   .my-name button {
     margin-top: 1rem;
     background-color: blue;
@@ -105,220 +610,278 @@
     margin-left: 0;
     height: 11rem;
     opacity: 5;
-    padding-bottom: 0;
-    padding-right: 15rem;
-    }
+    padding-bottom: 0rem;
+    padding-right: 10rem;
+  }
 
   .skill-section {
-    margin-left: 1rem;
-    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0rem;
     margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
   }
 
   .skill-section p {
     color: lightslategrey;
     font-weight: 500;
     text-align: justify;
-  }
-  
-  .skill-section h3 {
     padding-bottom: 0.5rem;
+    padding: 1rem;
+  }
+
+  .skill-section h3 {
+    padding-bottom: 1.5rem;
     font-size: medium;
+    text-align: justify;
+    padding-left: 5.5rem;
+    
+
   }
 
-  .web, .writer, .business{
-    text-align: center;
+  .web-skill, .writer-skill, .business-skill {
+    display: inline;
   }
 
-  .image, .image1, .image2{
-    margin-left: 8rem;
+  .web-skill h3 {
+    margin-left: 3rem;
   }
 
-  .image{
+  .writer-skill h3 {
+    margin-left: 1.5rem;
+  }
+
+  .business-skill h3 {
+    margin-left: 0.5rem;
+  }
+
+  .image,
+  .image1,
+  .image2 {
+    margin-left: 7.5rem;
+  }
+
+  .image {
     padding-top: 0.5rem;
     padding-bottom: 0.2rem;
   }
 
-  .image1{
-    padding-top: 2rem;
+  .image1 {
+    padding-top: 0.5rem;
     padding-bottom: 0.2rem;
   }
 
-  .image2{
-    padding-top: 2rem;
+  .image2 {
+    padding-top: 0.5rem;
     padding-bottom: 0.2rem;
   }
-  
+
   .writer {
-    
   }
 
   /* unvisited link */
   a:link {
-  color: white;
+    color: white;
   }
 
   /* visited link */
   a:visited {
-  color: wheat;
+    color: wheat;
   }
 
   /* mouse over link */
   a:hover {
-  color: red;
+    color: red;
   }
 
   /* selected link */
   a:active {
-  color: yellow;
+    color: yellow;
   }
 
   /* about page designed below */
+
+  .nav {
+    background-color: rgba(2, 2, 165, 0.781);
+    padding-bottom: 0.5rem;
+  }
+
+  /* first skill */
+  .section-1 {
+    padding-top: 1.5rem;
+    background-color: antiquewhite;
+    display: grid;
+    padding-bottom: 0.8rem;
+  }
+
+  .section-1 h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1rem;
+  }
+
+  .section-1 p {
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.8rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.7;
+    color: lightslategrey;
+  }
+
+  .plastics-link {
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: grid;
+    padding-right: 3rem;
+  }
+
+  .plastics-link .plastics-link-a {
+    width: 92px;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    margin-left: 1.5rem;
+  }
+
+  .plastics-link .plastics-link-b {
+    width: 92px;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    margin-left: 1.5rem;
+  }
+
+  button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13.5px;
+  }
+
+  /* second skill */
+
+  .section-2 {
+    padding-top: 1.5rem;
+    background-color: blue;
+    padding-bottom: 0.8rem;
+    flex-direction: column;
+  }
+
+  .section-2 h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-right: 0.5rem;
+  }
+
+  .section-2 p {
+    padding-top: 0.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.7;
+    color: white;
+    
+  }
+
+  .content-link {
+    margin-left: 1.5rem;
+    display: grid;
+  }
+
+  .content-link .plastics-link-a {
+    width: 92px;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    margin-bottom: 0.5rem;
+  }
+
+  .content-link .plastics-link-b {
+    width: 92px;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    margin-bottom: 0.5rem;
+  }
+
+  .content-link .plastics-link-c {
+    width: 92px;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    /* padding-bottom: 0.5rem; */
+    /* margin-left: 0.5rem; */
+  }
+
+ 
+
+ 
+  /* third skill */
+  .section-3 {
+    padding-top: 1.5rem;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    padding-bottom: 0.8rem;
+    padding-left: 0;
+  }
+
+  .section-3 h4 {
+    font-weight: bold;
+    font-size: 20px;
+    /* margin-left: 9rem; */
+    padding-left: 2rem;
+  }
+
+  .section-3 p {
+    padding-top: 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.8rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.7;
+    color: lightslategrey;
+  }
+
+  .section-3 span {
+    font-weight: bolder;
+  }
+
+  .farm-link {
+    display: grid;
+  }
   
-.nav {
-  background-color: rgba(2, 2, 165, 0.781);
-  padding-bottom: 0.5rem;
-}
-
-/* first skill */
-.section-1 {
-  padding-top: 1.5rem;
-  display: flex;
-  background-color: antiquewhite;
-  display: grid;
-  padding-bottom: 0.8rem;
-}
-
-.section-1 h4 {
-  font-weight: bolder;
-  font-size: 20px;
-  text-align: center;
-  /* margin-left: 30%; */
-}
-
-.section-1 p {
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1.2rem;
-  padding-bottom: 0.8rem;
-  text-align: justify;
-  font-weight: bold;
-  line-height: 1.7;
-  color: lightslategrey;
-}
-
-.plastics-link {
-  padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.plastics-link-a {
-  width: 84px;
-  padding: 0.5rem;
-  margin-right: 0.5rem;
-  background-color: blue;
-  border-radius: 8px;
-  border-color: red;
-  margin-left: 4.2rem;
-}
-
-.plastics-link-b {
-  width: 84px;
-  padding: 0.5rem;
-  background-color: blue;
-  border-radius: 8px;
-  border-color: red;
-}
-
-button a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 13.5px;
-}
-
-/* second skill */
-
-.section-2 {
-  padding-top: 1.5rem;
-  display: flex;
-  background-color: blue;
-  display: grid;
-  padding-bottom: 0.8rem;
-}
-
-.section-2 h4 {
-  font-weight: bolder;
-  font-size: 20px;
-  text-align: center;
-  /* margin-left: 30%; */
-}
-
-.section-2 p {
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1.2rem;
-  padding-bottom: 0.8rem;
-  text-align: justify;
-  font-weight: bold;
-  line-height: 1.7;
-  color: white;
-}
-
-.plastics-link-c {
-  width: 84px;
-  padding: 0.5rem;
-  background-color: blue;
-  border-radius: 8px;
-  border-color: red;
-  padding-bottom: 0.5rem;
-  margin-left: 0.5rem;
-}
-
-.content-link {
-  padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.content-link .plastics-link-a{
-  margin-left: 1rem;
-}
-
-/* third skill */
-.section-3 {
-  padding-top: 1.5rem;
-  display: flex;
-  background-color: antiquewhite;
-  display: grid;
-  padding-bottom: 0.8rem;
-}
-
-.section-3 h4 {
-  font-weight: bolder;
-  font-size: 20px;
-  text-align: center;
-  /* margin-left: 30%; */
-}
-
-.section-3 p {
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1.2rem;
-  padding-bottom: 0.8rem;
-  text-align: justify;
-  font-weight: bold;
-  line-height: 1.7;
-  color: lightslategrey;
-}
-
-.section-3 span {
-  font-weight: bolder;
-}
-
-.farm-link .plastics-link-a{
-  width: 90px;
-}
+  .farm-link .plastics-link-a {
+    margin-left: 1.5rem;
+    width: 90px;
+    height: 55px;
+    padding: 0.5rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    margin-bottom: 0.5rem;
+  }
+  
+  .farm-link .plastics-link-b {
+    width: 90px;
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 8px;
+    border-color: red;
+    margin-left: 1.5rem;
+  }
 
 }
 
